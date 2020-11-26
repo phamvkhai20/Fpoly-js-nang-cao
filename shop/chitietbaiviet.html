@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Shoppers &mdash; Colorlib e-Commerce Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+<style>
+    #content img{
+        width: 700px;
+    }
+</style>
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body onload="getdata()">
+
+  <div class="site-wrap">
+    <header class="site-navbar" role="banner">
+      <div class="site-navbar-top">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
+              <form action="shop.html" class="site-block-top-search">
+                <span class="icon icon-search2"></span>
+                <input type="text" name="key" class="form-control border-0" placeholder="Search">
+              </form>
+            </div>
+
+            <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+              <div >
+                <a href="index.html" >
+                <img src="https://sinhvien.xyz/wp-content/uploads/2020/04/admin-ajax.png" alt="">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 order-3 order-md-3 text-right">
+              <div class="site-top-icons">
+                <ul>
+                  <li><a href="#"><span class="icon icon-person"></span></a></li>
+                  <li><a href="#"><span class="icon icon-heart-o"></span></a></li>
+                  <li>
+                    <a href="cart.html" class="site-cart">
+                      <span class="icon icon-shopping_cart"></span>
+                      <span class="count" id="count">0</span>
+                    </a>
+                  </li>
+                  <li class="d-inline-block d-md-none ml-md-0"><a href="#" class="site-menu-toggle js-menu-toggle"><span
+                        class="icon-menu"></span></a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div> 
+                
+                <nav class="site-navigation text-right text-md-center" role="navigation">
+                  <div class="container">
+                    <ul class="site-menu js-clone-nav d-none d-md-block">
+                      <li >
+                        <a href="index.html">Trang Chủ</a>
+                      </li>
+                      <li class="has-children ">
+                        <a href="shop.html" >Sản Phẩm</a>
+                        <ul class="dropdown" id="hehe">
+                         
+                        </ul>
+                      </li>
+                      <li class="active"><a href="blog.html">Bài Viết</a></li>
+                      <li><a href="contact.html">Liên Hệ</a></li>
+                      <li class="has-children"><a >Tra Cứu Đơn Hàng</a>
+                        <ul class="dropdown">
+                          <li><form action="cart.html" class="site-block-top-search">
+                            <input type="text" name="key"  class="form-control border-0" placeholder="Nhập Mã Đơn Hàng">
+                          </form></li>
+                         
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+        
+    </header>
+
+    <div class="bg-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong
+              class="text-black">Bài viêt</strong> <span class="mx-2 mb-0">/</span><strong
+              class="text-black" id="duongdan"></strong></div>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class=" border-bottom" >
+        <div class="container">
+            <div class="row">
+              <!-- Post Content Column -->
+              <div class="col-lg-8">
+                <!-- Title -->
+                <h1 class="mt-4" id="tieudebaiviet">Tiêu đề</h1>
+                <!-- Author -->
+                <p class="lead">
+                  by
+                  <a href="#">Pham van khai</a>
+                </p>
+                <hr>
+                
+                <!-- Date/Time -->
+                <p>Đăng lúc <span id="date"></span></span> </p>
+                <hr>
+                <!-- Preview Image -->
+                <img class="img-fluid rounded cover" id="cover" src="http://placehold.it/900x300" alt="">
+                <hr>
+                <!-- Post Content -->
+                <div id="content">
+                </div>
+                <br>
+                <!-- Comments Form -->
+                <div class="card my-4">
+                  <h5 class="card-header">Bình Luận</h5>
+                  <div class="card-body">
+                    <form onsubmit="return binhluan()">
+                        <div class="form-group ">
+                            <label for="">Họ Và Tên</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                      <div class="form-group">
+                        <label for="">Nhận Xét</label>
+                        <textarea class="form-control" rows="3" id="noidung"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Bình Luận</button>
+                    </form>
+                  </div>
+                </div>
+        
+                <!-- Single Comment -->
+                <div class="media mt-4">
+                  <img class="d-flex mr-3 rounded-circle" style="width:40px" src="data:image/jpeg;base64,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" alt="">
+                  <div class="media-body">
+                    <h5 class="mt-0">Phạm Văn Khải</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </div>
+                <br>
+                <!-- Comment with nested comments -->
+               
+        
+              </div>
+        
+              <!-- Sidebar Widgets Column -->
+              <div class="col-md-4">
+        
+                <!-- Search Widget -->
+                <div class="card my-4">
+                  <h5 class="card-header">Search</h5>
+                  <div class="card-body">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search for...">
+                      <span class="input-group-btn">
+                        <button class="btn btn-secondary" type="button">Go!</button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+        
+                <!-- Categories Widget -->
+                <div class="card my-4">
+                  <h5 class="card-header">Categories</h5>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <ul class="list-unstyled mb-0">
+                          <li>
+                            <a href="#">Web Design</a>
+                          </li>
+                          <li>
+                            <a href="#">HTML</a>
+                          </li>
+                          <li>
+                            <a href="#">Freebies</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <ul class="list-unstyled mb-0">
+                          <li>
+                            <a href="#">JavaScript</a>
+                          </li>
+                          <li>
+                            <a href="#">CSS</a>
+                          </li>
+                          <li>
+                            <a href="#">Tutorials</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <!-- Side Widget -->
+                <div class="card my-4">
+                  <h5 class="card-header">Side Widget</h5>
+                  <div class="card-body">
+                    You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+                  </div>
+                </div>
+        
+              </div>
+        
+            </div>
+            <!-- /.row -->
+        
+          </div>
+    </div>
+
+
+   
+
+
+    <footer class="site-footer border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="footer-heading mb-4">Navigations</h3>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">Sell online</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Shopping cart</a></li>
+                  <li><a href="#">Store builder</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">Mobile commerce</a></li>
+                  <li><a href="#">Dropshipping</a></li>
+                  <li><a href="#">Website development</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">Point of sale</a></li>
+                  <li><a href="#">Hardware</a></li>
+                  <li><a href="#">Software</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+            <h3 class="footer-heading mb-4">Promo</h3>
+            <a href="#" class="block-6">
+              <img src="images/hero_1.jpg" alt="Image placeholder" class="img-fluid rounded mb-4">
+              <h3 class="font-weight-light  mb-0">Finding Your Perfect Shoes</h3>
+              <p>Promo from nuary 15 &mdash; 25, 2019</p>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="block-5 mb-5">
+              <h3 class="footer-heading mb-4">Contact Info</h3>
+              <ul class="list-unstyled">
+                <li class="address">203 Fake St. Mountain View, San Francisco, California, USA</li>
+                <li class="phone"><a href="tel://23923929210">+2 392 3929 210</a></li>
+                <li class="email">emailaddress@domain.com</li>
+              </ul>
+            </div>
+
+            <div class="block-7">
+              <form action="#" method="post">
+                <label for="email_subscribe" class="footer-heading">Subscribe</label>
+                <div class="form-group">
+                  <input type="text" class="form-control py-4" id="email_subscribe" placeholder="Email">
+                  <input type="submit" class="btn btn-sm btn-primary" value="Send">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script data-cfasync="false"
+                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+              with
+              <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"
+                class="text-primary">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    var urrlCategory = "http://localhost:3000/categorys";
+    axios.get(urrlCategory)
+      .then(res => {
+        if (res.statusText === "OK") {
+          categorys = ``;
+          var data = res.data;
+          data.forEach(element => {
+            if (element.status == "on") {
+              categorys += `<li><a href="shop.html?id=${element.id}">${element.name_category}</a></li>`;
+
+            }
+          })
+          document.querySelector("#hehe").innerHTML=categorys;
+          console.log(categorys)
+        }
+      })
+
+  </script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="javascipt/chitietblogs.js"></script>
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

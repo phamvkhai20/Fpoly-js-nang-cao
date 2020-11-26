@@ -1,0 +1,907 @@
+{
+  "categorys": [
+    {
+      "id": 1,
+      "name_category": "NAM",
+      "image": "https://i.pinimg.com/564x/12/5f/60/125f60089fb82e2915471e82e02af813.jpg",
+      "status": "on"
+    },
+    {
+      "name_category": "NỮ",
+      "image": "https://i.pinimg.com/564x/4d/a6/7b/4da67b10dff4d8f3e616c1e5e4e4c9db.jpg",
+      "status": "on",
+      "id": 2
+    },
+    {
+      "name_category": "TRẺ EM",
+      "image": "https://i.pinimg.com/564x/92/87/91/9287915455b51fbd1594edc8a9fd5c8a.jpg",
+      "status": "on",
+      "id": 3
+    }
+  ],
+  "slides": [
+    {
+      "id": 1,
+      "tenslide": "giaymoi",
+      "image": "https://ananas.vn/wp-content/uploads/banner-chi%CC%81nh_2.jpg",
+      "link": "facebook.com",
+      "trangthai": "on",
+      "url": "../shop/shop-single.html?id=7",
+      "status": "on"
+    },
+    {
+      "tenslide": "asd",
+      "image": "https://ananas.vn/wp-content/uploads/Banner_Clothing.jpg",
+      "url": "../shop/shop.html",
+      "date": "26/0/2020",
+      "status": "off",
+      "id": 2
+    },
+    {
+      "tenslide": "giaymoi",
+      "image": "https://ananas.vn/wp-content/uploads/desktop_productlist.jpg",
+      "url": "../shop/shop.html",
+      "date": "26/0/2020",
+      "status": "on",
+      "id": 4
+    },
+    {
+      "tenslide": "giay ngon",
+      "image": "https://ananas.vn/wp-content/uploads/peeping_pattas01.jpg",
+      "url": "../shop/shop-single.html?id=7",
+      "date": "29/3/2020",
+      "status": "on",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id_category": "1",
+      "name_Product": "URBAS INVERSION - HIGH TOP - C-NAVY BLUE",
+      "price": 510000,
+      "old_price": 520000,
+      "image": "https://ananas.vn/wp-content/uploads/pro_urbas_A61062_1-1.jpg",
+      "mota": "Phá cách bằng những phối màu đảo nghịch đầy độc đáo, tươi vui, Urbas \"Inversion\" là một pack giày đầy thú vị cho những ai muốn có thêm sắc màu cho cuộc sống, và tất nhiên, là cho cả những bộ outfit của riêng mình nữa.",
+      "ngaythem": "25/6/2020",
+      "soluong": 0,
+      "status": "on",
+      "id": 4
+    },
+    {
+      "id_category": "1",
+      "name_Product": "BASAS NEW SIMPLE LIFE - HIGH TOP - TAUPE",
+      "price": 520000,
+      "old_price": 0,
+      "image": "https://ananas.vn/wp-content/uploads/pro_basas_A61080_1.jpg",
+      "mota": "Thuộc dòng Basas với nét tối giản đặc trưng, khả năng kết hợp mọi outfit thường ngày, Basas \"New Simple Life\" dành cho những con người đơn giản nhưng không đơn điệu, bình thường mà chẳng tầm thường. Dáng High Top cá tính, không bao giờ lỗi thời chính là sự lựa chọn dễ chịu cho những ngày vô lo, vô nghĩ.\n",
+      "ngaythem": "25/6/2020",
+      "soluong": 100,
+      "status": "on",
+      "id": 5
+    },
+    {
+      "id_category": "1",
+      "name_Product": "VINTAS EARTH - LOW TOP - DARK OLIVE",
+      "price": 200000,
+      "old_price": 230000,
+      "image": "https://ananas.vn/wp-content/uploads/pro_vintas_A61033_1.jpg",
+      "mota": "Dáng Low Top, Upper được phủ trọn bằng da Suede, thêm điểm nhấn bằng da Nappa ở tem logo trên lưỡi gà, tông màu trầm mặc gợi nhắc đến cây rừng đất đá. Một sản phẩm dành cho những tâm hồn thích lang thang, yêu tự do và mê xê dịch.\n",
+      "ngaythem": "25/6/2020",
+      "soluong": 2000,
+      "status": "on",
+      "id": 6
+    },
+    {
+      "id_category": "1",
+      "name_Product": "ANANAS TRACK 6 OG - LOW TOP - 70S WHITE",
+      "price": 320000,
+      "old_price": 400000,
+      "image": "https://ananas.vn/wp-content/uploads/pro_track6_A6T001_1.jpg",
+      "mota": "Với cảm hứng từ Retro Sneakers và âm nhạc giai đoạn 1970s, Ananas Track 6 ra đời với danh hiệu là mẫu giày Cold Cement đầu tiên của Ananas - một thương hiệu giày Vulcanized. Chất liệu Storm Leather đáng giá \"càn quét\" toàn bộ bề mặt upper cùng những chi tiết thiết kế đặc trưng và mang nhiều ý nghĩa. Chắc rằng, Track 6 sẽ đem đến cho bạn sự tự nhiên thú vị như chính thông điệp bài hát Let it be của huyền thoại The Beatles gửi gắm.\n",
+      "ngaythem": "25/6/2020",
+      "soluong": 2000,
+      "status": "on",
+      "id": 7
+    },
+    {
+      "id_category": "1",
+      "name_Product": "BASAS NEW SIMPLE LIFE - LOW TOP - BLACK",
+      "price": 420000,
+      "old_price": 450000,
+      "image": "https://ananas.vn/wp-content/uploads/stu_basas_A61000_1.jpg",
+      "mota": "Thuộc dòng Basas với nét tối giản đặc trưng cùng khả năng kết hợp mọi outfit thường ngày, Basas \"New Simple Life\" dành cho những con người đơn giản nhưng không đơn điệu, bình thường mà chẳng tầm thường. Dáng Low Top cổ điển, không bao giờ lỗi thời chính là sự lựa chọn dễ chịu cho những ngày vô lo, vô nghĩ.\n",
+      "ngaythem": "25/6/2020",
+      "soluong": 200,
+      "status": "on",
+      "id": 8
+    },
+    {
+      "id_category": "2",
+      "name_Product": "Nike Air Max 2090",
+      "price": 7000000,
+      "old_price": 0,
+      "image": "https://i.pinimg.com/564x/7c/ec/ba/7cecba20855429f4cfc0b550ef171bb4.jpg",
+      "mota": "Mang lại quá khứ vào tương lai với Nike Air Max 2090. Lấy cảm hứng từ Air Max 90 mang tính biểu tượng, 2090 có đặc điểm là Nike Air đệm dưới chân cung cấp sự thoải mái vô song, trong khi lưới trong suốt ở trên được pha trộn với các tính năng của OG vượt thời gian cho một cái nhìn hiện đại, edgy.",
+      "ngaythem": "25/6/2020",
+      "soluong": 213,
+      "status": "on",
+      "id": 9
+    },
+    {
+      "id_category": "2",
+      "name_Product": "Nike Air Max 2090 SP",
+      "price": 2200000,
+      "old_price": 0,
+      "image": "https://i.pinimg.com/564x/09/e8/79/09e879a9b13a6975bfc2594b6a22f56b.jpg",
+      "mota": "Nike Air Max 2090 SP kỷ niệm 3 thập kỷ kể từ bản phát hành Air Max 90. Biểu tượng Cập nhật này giữ chân nhỏ thoáng mát và thoải mái với cấu xây dựng thoáng khí. Với Air mới và thiết kế xem qua, nhé của bạn có thể nhìn vào tương lai của Max Air.",
+      "ngaythem": "25/6/2020",
+      "soluong": 98,
+      "status": "on",
+      "id": 10
+    },
+    {
+      "id_category": "3",
+      "name_Product": "Nike Air Max 2090 SP",
+      "price": 1880000,
+      "old_price": 8999000,
+      "image": "https://i.pinimg.com/564x/43/55/ac/4355ac184e4fba9ad963b5a55a28a0d0.jpg",
+      "mota": "Nike Air Max 2090 SP kỷ niệm 3 thập kỷ kể từ bản phát hành Air Max 90. Biểu tượng Cập nhật này giữ chân nhỏ thoáng mát và thoải mái với cấu xây dựng thoáng khí. Với Air mới và thiết kế xem qua, nhé của bạn có thể nhìn vào tương lai của Max Air.\n\n",
+      "ngaythem": "25/6/2020",
+      "soluong": 0,
+      "status": "on",
+      "id": 11
+    },
+    {
+      "id_category": "3",
+      "name_Product": "Nike Force 1",
+      "price": 1902000,
+      "old_price": 2300000,
+      "image": "https://i.pinimg.com/564x/6d/9e/61/6d9e610cd789f9b83ac6cdba16a59ebd.jpg",
+      "mota": "Truyền thuyết sống trong Nike Force 1, với một cái nhìn mang tính biểu tượng và nhiều đệm cho thoải mái với mỗi bước.\n\n",
+      "ngaythem": "25/6/2020",
+      "soluong": 200,
+      "status": "on",
+      "id": 12
+    },
+    {
+      "id_category": "1",
+      "name_Product": "Adidas Air Max 2090 SP",
+      "price": 1098000,
+      "old_price": 0,
+      "image": "https://i.pinimg.com/564x/70/78/1a/70781a3f0595c0248bb02aed2307899d.jpg",
+      "mota": "Dáng Low Top, Upper được phủ trọn bằng da Suede, thêm điểm nhấn bằng da Nappa ở tem logo trên lưỡi gà, tông màu trầm mặc gợi nhắc đến cây rừng đất đá. Một sản phẩm dành cho những tâm hồn thích lang thang, yêu tự do và mê xê dịch.",
+      "ngaythem": "26/0/2020",
+      "soluong": 0,
+      "status": "on",
+      "id": 13
+    },
+    {
+      "id_category": "1",
+      "name_Product": "Adidas UY87 - HIGH TOP - C-NAVY BLUE",
+      "price": 510000,
+      "old_price": 0,
+      "image": "https://i.pinimg.com/564x/44/06/b0/4406b07ff50dbc66fa430293e44e4159.jpg",
+      "mota": "Truyền thuyết sống trong Nike Force 1, với một cái nhìn mang tính biểu tượng và nhiều đệm cho thoải mái với mỗi bước.",
+      "ngaythem": "26/0/2020",
+      "soluong": 213,
+      "status": "on",
+      "id": 14
+    },
+    {
+      "id_category": "2",
+      "name_Product": "URBAS POP-UP - LOW TOP - ULTRA VIOLET",
+      "price": 420000,
+      "old_price": 0,
+      "image": "https://ananas.vn/wp-content/uploads/pro_urbas_A21001_1.jpg",
+      "mota": "Khoác lên mình gam màu tươi sáng và trẻ trung, nét nổi bật của Urbas \"Pop-up\" xuất hiện một cách tự nhiên, mới mẻ và đầy bất ngờ như chính nhịp sống hiện đại chốn thành thị - nơi tập trung những người trẻ năng động và sáng tạo không ngừng.",
+      "ngaythem": "30/4/2020",
+      "soluong": 2000,
+      "status": "on",
+      "id": 15
+    },
+    {
+      "id_category": "2",
+      "name_Product": "URBAS POP-UP - LOW TOP - BRIDAL ROSE",
+      "price": 440000,
+      "old_price": 0,
+      "image": "https://ananas.vn/wp-content/uploads/pro_urbas_A41000_1-1.jpg",
+      "mota": "Khoác lên mình gam màu tươi sáng và trẻ trung, nét nổi bật của Urbas \"Pop-up\" xuất hiện một cách tự nhiên, mới mẻ và đầy bất ngờ như chính nhịp sống hiện đại chốn thành thị - nơi tập trung những người trẻ năng động và sáng tạo không ngừng.\n",
+      "ngaythem": "30/4/2020",
+      "soluong": 30,
+      "status": "on",
+      "id": 16
+    },
+    {
+      "id_category": "1",
+      "name_Product": "URBAS PINEAPPLE OR ANANAS - LOW TOP ",
+      "price": 490000,
+      "old_price": 0,
+      "image": "https://ananas.vn/wp-content/uploads/pro_A61086_1.jpg",
+      "mota": "\"Urbas Pineapple or Ananas Pack\" với quai dán tiện lợi gây ấn tượng với những phối màu \"rất vui\". Kĩ thuật in foxing lần đầu tiên được sử dụng với dòng chữ \"Pineapple Ananas\" chạy dọc viền quanh. Điểm nhấn cuối cùng chính là thiết kế quả Dứa được thêu tỉ mỉ ở quai dán thay cho logo cách điệu thường thấy càng làm rõ hơn tính cách của dòng sản phẩm Urbas và thông điệp muốn truyền tải của bộ sản phẩm.\n",
+      "ngaythem": "30/4/2020",
+      "soluong": 123,
+      "status": "on",
+      "id": 17
+    },
+    {
+      "id_category": "1",
+      "name_Product": "BASAS NEW SIMPLE LIFE - HIGH TOP - TAUPE",
+      "price": 520000,
+      "old_price": 0,
+      "image": "https://ananas.vn/wp-content/uploads/pro_basas_A61080_1.jpg",
+      "mota": "Thuộc dòng Basas với nét tối giản đặc trưng, khả năng kết hợp mọi outfit thường ngày, Basas \"New Simple Life\" dành cho những con người đơn giản nhưng không đơn điệu, bình thường mà chẳng tầm thường. Dáng High Top cá tính, không bao giờ lỗi thời chính là sự lựa chọn dễ chịu cho những ngày vô lo, vô nghĩ.",
+      "ngaythem": "30/4/2020",
+      "soluong": 23232,
+      "status": "on",
+      "id": 18
+    },
+    {
+      "id_category": "1",
+      "name_Product": "VINTAS SAIGON 1980S - LOW TOP - VIN BLACK",
+      "price": 760000,
+      "old_price": 0,
+      "image": "https://ananas.vn/wp-content/uploads/pro_vintas_A61032_1.jpg",
+      "mota": "Lấy cảm hứng từ các màu sắc đặc trưng của đường phố Sài Gòn những năm 80, Vintas \"Saigon 1980s\" là BST mang đậm nét đẹp cổ kính, hoài niệm. Với những ai yêu mến nét xưa cũ, trầm mặc, \"Saigon 1980s\" hứa hẹn sẽ trở thành must-have item cho tủ giày của bạn.\n",
+      "ngaythem": "30/4/2020",
+      "soluong": 200,
+      "status": "on",
+      "id": 19
+    },
+    {
+      "id_category": "1",
+      "name_Product": "URBAS INVERSION - HIGH TOP - N-GOLD FLAME",
+      "price": 588000,
+      "old_price": 620000,
+      "image": "https://ananas.vn/wp-content/uploads/pro_urbas_A61063_1-1.jpg",
+      "mota": "Phá cách bằng những phối màu đảo nghịch đầy độc đáo, tươi vui, Urbas \"Inversion\" là một pack giày đầy thú vị cho những ai muốn có thêm sắc màu cho cuộc sống, và tất nhiên, là cho cả những bộ outfit của riêng mình nữa.\n",
+      "ngaythem": "30/4/2020",
+      "soluong": 213,
+      "status": "on",
+      "id": 20
+    },
+    {
+      "id_category": "2",
+      "name_Product": "URBAS CLOUDY - LOW TOP - DECEMBER BRIDAL",
+      "price": 219000,
+      "old_price": 300000,
+      "image": "https://ananas.vn/wp-content/uploads/pro_urbas_A41003_1.jpg",
+      "mota": "Mang những điểm nhấn sáng tập trung ở phần quai dán và đỉnh hậu, Urbas \"Cloudy\" gợi bạn nhớ đến những điều tích cực vẫn tồn tại xung quanh và đem lại cho bạn cảm giác lạc quan, yêu đời vào những ngày trời nhiều mây u ám.\n",
+      "ngaythem": "30/4/2020",
+      "soluong": 2000,
+      "status": "on",
+      "id": 21
+    },
+    {
+      "id_category": "1",
+      "name_Product": " URBAS LEGO - LOW TOP - MIMO LAVA",
+      "price": 450000,
+      "old_price": 500000,
+      "image": "https://ananas.vn/wp-content/uploads/pro_urbas_A61055_1-1.jpg",
+      "mota": "Lấy cảm hứng từ món đồ chơi xếp hình quen thuộc cùng phong cách thời trang Color Block cá tính, Urbas \"Lego\" với sự kết hợp của những mảng màu nổi bật sẽ tạo nên một bức tranh đa sắc màu ngay dưới chân bạn, cùng bạn thu hút mọi ánh nhìn trên đường phố.\n",
+      "ngaythem": "30/4/2020",
+      "soluong": 298,
+      "status": "on",
+      "id": 22
+    },
+    {
+      "id_category": "2",
+      "name_Product": "URBAS INVERSION - HIGH TOP - C-NAVY BLUE",
+      "price": 510000,
+      "old_price": 0,
+      "image": "https://ananas.vn/wp-content/uploads/pro_urbas_A21001_1-500x500.jpg",
+      "mota": "9999",
+      "ngaythem": "2/6/2020",
+      "soluong": 200,
+      "status": "on",
+      "id": 23
+    }
+  ],
+  "blogs": [
+    {
+      "tieude": "\"GIẢI PHẪU\" GIÀY VULCANIZED",
+      "image": "https://ananas.vn/wp-content/uploads/shoes-anatomy.jpg",
+      "content": "<p>Sole l&agrave; bộ phận quan trọng v&agrave; \"kh&oacute; nhai\" nhất trong qu&aacute; tr&igrave;nh sản xuất gi&agrave;y. Phi&ecirc;n bản đầy đủ của ch&uacute;ng gồm 3 phần l&agrave; Insole (đế trong), Midsole (đế giữa) v&agrave; Outsole (đế ngo&agrave;i) v&agrave; thường c&oacute; ở gi&agrave;y Cold Cement. Nhiều người vẫn lầm tưởng rằng Midsole của gi&agrave;y Vulcanized ch&iacute;nh l&agrave; lớp foxing cao su (15) nằm giữa Upper v&agrave; Outsole. Tuy nhi&ecirc;n tr&ecirc;n thực tế gi&agrave;y Vulcanized kh&ocirc;ng c&oacute; Midsole m&agrave; chỉ gồm 2 phần: (13) Insole: đế trong - phần nằm dưới Insock, kh&ocirc;ng thể nh&igrave;n thấy từ b&ecirc;n ngo&agrave;i v&igrave; bị che đi. (14) Outsole: đế ngo&agrave;i - bộ phận duy nhất của gi&agrave;y tiếp x&uacute;c trực tiếp với mặt đất. V&igrave; l&agrave; bộ phận chịu nhiều lực ma s&aacute;t trong l&uacute;c gi&agrave;y được sử dụng n&ecirc;n chất liệu đế cũng phải l&agrave; những chất liệu c&oacute; t&iacute;nh bền chắc cao. Đế của gi&agrave;y Vulcanized phải được l&agrave;m từ cao su Nh&oacute;m bộ phận cuối c&ugrave;ng \"l&agrave;m bằng cao su\" cũng kh&ocirc;ng k&eacute;m phần quan trọng trong việc th&agrave;nh h&igrave;nh một đ&ocirc;i gi&agrave;y Vulcanized ho&agrave;n chỉnh. Đ&oacute; l&agrave;: (15) Foxing: lớp cao su được d&aacute;n l&ecirc;n gi&agrave;y để gia cố, kết nối Upper v&agrave; Sole, đ&acirc;y cũng l&agrave; chi tiết gi&uacute;p bạn dễ d&agrave;ng nhất để \"ph&aacute;t hiện\" ra gi&agrave;y Vulcanized v&agrave; ph&acirc;n biệt ch&uacute;ng với gi&agrave;y Cold Cement đ&atilde; đề cập ở đầu b&agrave;i viết (gi&agrave;y Cold Cement kh&ocirc;ng c&oacute; bộ phận n&agrave;y). (16) Bumper: c&ograve;n c&oacute; c&aacute;ch gọi kh&aacute;c trong sản xuất l&agrave; foxing mũi. Bumper thường d&ugrave;ng để gia cố cho foxing th&ecirc;m chắc chắn. T&ugrave;y v&agrave;o mục đ&iacute;ch trang tr&iacute; m&agrave; chất liệu / m&agrave;u sắc của bumper c&oacute; thể kh&aacute;c với tổng thể foxing. Bạn c&oacute; thể thấy r&otilde; điều n&agrave;y qua c&aacute;c sản phẩm trong bộ Basas Bumper Gum vừa được Ananas ra mắt c&aacute;ch đ&acirc;y kh&ocirc;ng l&acirc;u. (17) Heel label: chiếc tem g&oacute;t - điểm nhấn kh&ocirc;ng k&eacute;m phần quan trọng v&igrave; mang trọng tr&aacute;ch truyền tải th&ocirc;ng điệp của thương hiệu.</p>",
+      "date": "26/0/2020",
+      "status": "on",
+      "id": 1
+    },
+    {
+      "tieude": "SAIGON 1980s PACK THUỘC VINTAS",
+      "image": "https://ananas.vn/wp-content/uploads/Blog-1980s_1.jpg",
+      "content": "Với cảm hứng từ hình ảnh mang \"màu film\" của đường phố Sài Gòn, nét riêng của Vintas Saigon 1980s Pack nổi bật qua đặc điểm: không “nét căng”, không rực rỡ mà lại thiên về sắc xanh, đỏ nhiều cảm xúc. Cụ thể, những màu sắc như Dark Denim, Vin Black, Sedona Sage và Vin Cordovan được ứng dụng trong thiết kế đều là những màu bạn dễ dàng bắt gặp khi tìm đọc các tài liệu về Sài Gòn trong quá khứ. Trên dáng giày Low Top / High Top cơ bản, cảm giác hoài niệm mà Vintas Saigon 1980s mang lại gợi người ta nhớ về hình bóng của Sài Gòn vào những năm “1900 hồi đó”. Gam màu trầm của Upper khi sử dụng chất liệu Canvas dày dặn phối cùng Suede, cộng thêm sự chắc chắn của chiếc đế cao su (vulcanized) màu gum tự nhiên, 5 lựa chọn thuộc Vintas Saigon 1980s Pack tạo nên một bức tranh hoài cổ, thể hiện sự điềm đạm trong tính cách người mang.",
+      "date": "27/1/2020",
+      "status": "on",
+      "id": 2
+    },
+    {
+      "tieude": "SNEAKER FEST VIETNAM VÀ SỰ KẾT HỢP",
+      "image": "https://ananas.vn/wp-content/uploads/peeping_pattas08.jpg",
+      "content": "Với số lượng phát hành giới hạn chỉ 50 đôi, cộng với việc các chi tiết sản phẩm, packaging của Ananas Peeping Pattas đều được \"chăm chút\" với các ý tưởng mới, khác biệt so với những phiên bản trước đây từ Ananas càng làm cho bản collab trở nên đặc biệt.\n\nVề tổng thể, bộ đế cao su All white tối giản làm phần nền vững chắc và tạo điểm nhấn cho phần Upper bên trên có phần phức tạp. Chất liệu vải canvas 10oz cao cấp màu Black được sử dụng bao quanh bức tranh đầy màu sắc, trải dài và phủ toàn bộ phần má và cổ giày. Gương mặt Peeping (linh vật quen thuộc của các kì Sneaker Fest VietNam) trở nên nổi bật hơn bao giờ hết khi được sử dụng 2 màu black&white ngay tại trung tâm artwork. Bản collab đem lại cho người nhìn cảm giác về một thế hệ trẻ cá tính, có phần nổi loạn nhưng cũng rất tích cực trong hành trình tìm kiếm và khẳng định bản thân.",
+      "date": "27/1/2020",
+      "status": "on",
+      "id": 3
+    },
+    {
+      "tieude": "VINTAS SAIGON 1980s <br> Cảm hứng Sài Gòn xưa giữa thời hiện đại",
+      "image": "https://ananas.vn/wp-content/uploads/Blog-1980s_4.jpg",
+      "content": "<div class=\"news-detail-cont container-fluid\">L&agrave; một bộ sưu tập thuộc d&ograve;ng sản phẩm Vintas,&nbsp;<strong><em>Saigon 1980s Pack</em></strong>&nbsp;đem đến một sự lựa chọn &ldquo;cũ kỹ th&uacute; vị&rdquo;, ph&ugrave; hợp cho những người trẻ sống giữa thời hiện đại nhưng lại y&ecirc;u c&aacute;i n&eacute;t b&igrave;nh dị của S&agrave;i G&ograve;n ng&agrave;y xưa.<br /><br />\n<div class=\"img-style-4\">\n<div class=\"img-full\"><img src=\"https://ananas.vn/wp-content/uploads/Blog-1980s_1.jpg\" /></div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\">\n<div class=\"img-style-3\">\n<div class=\"note\">Vintas &ldquo;Saigon 1980s&rdquo; - must-have item của những con người y&ecirc;u phong c&aacute;ch vintage / retro</div>\n</div>\n</div>\n<p>&nbsp;</p>\n<div class=\"news-detail-date container-fluid\">\n<h3 class=\"divider-1\">&nbsp;</h3>\n<h3 class=\"title-2\">SAIGON 1980s PACK THUỘC VINTAS - MỘT D&Ograve;NG SẢN PHẨM CỦA ANANAS</h3>\n<h3 class=\"divider-1\">&nbsp;</h3>\n</div>\n<p>&nbsp;</p>\n<div class=\"news-detail-cont container-fluid\"><br />Với cảm hứng từ h&igrave;nh ảnh mang \"m&agrave;u film\" của đường phố S&agrave;i G&ograve;n, n&eacute;t ri&ecirc;ng của Vintas Saigon 1980s Pack nổi bật qua đặc điểm: kh&ocirc;ng &ldquo;n&eacute;t căng&rdquo;, kh&ocirc;ng rực rỡ m&agrave; lại thi&ecirc;n về sắc xanh, đỏ nhiều cảm x&uacute;c. Cụ thể, những m&agrave;u sắc như Dark Denim, Vin Black, Sedona Sage v&agrave; Vin Cordovan được ứng dụng trong thiết kế đều l&agrave; những m&agrave;u bạn dễ d&agrave;ng bắt gặp khi t&igrave;m đọc c&aacute;c t&agrave;i liệu về S&agrave;i G&ograve;n trong qu&aacute; khứ. Tr&ecirc;n d&aacute;ng gi&agrave;y Low Top / High Top cơ bản, cảm gi&aacute;c ho&agrave;i niệm m&agrave; Vintas Saigon 1980s mang lại gợi người ta nhớ về h&igrave;nh b&oacute;ng của S&agrave;i G&ograve;n v&agrave;o những năm &ldquo;1900 hồi đ&oacute;&rdquo;. Gam m&agrave;u trầm của Upper khi sử dụng chất liệu Canvas d&agrave;y dặn phối c&ugrave;ng Suede, cộng th&ecirc;m sự chắc chắn của chiếc đế cao su (vulcanized) m&agrave;u gum tự nhi&ecirc;n, 5 lựa chọn thuộc Vintas Saigon 1980s Pack tạo n&ecirc;n một bức tranh ho&agrave;i cổ, thể hiện sự điềm đạm trong t&iacute;nh c&aacute;ch người mang.<br /><br />\n<div class=\"img-style-4\">\n<div class=\"img-full\"><img src=\"https://ananas.vn/wp-content/uploads/Blog-1980s_2.jpg\" /></div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\">\n<div class=\"img-style-3\">\n<div class=\"note\">\bBộ sản phẩm mang hơi thở của đ&ocirc; th&agrave;nh S&agrave;i G&ograve;n</div>\n</div>\n</div>\n<p>&nbsp;</p>\n<div class=\"news-detail-cont container-fluid\">\n<div class=\"img-style-4\">\n<div class=\"img-full\"><img src=\"https://ananas.vn/wp-content/uploads/Blog-1980s_3.jpg\" /></div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\">\n<div class=\"img-style-3\">\n<div class=\"note\">Giữa th&agrave;nh phố S&agrave;i G&ograve;n &ldquo;rất mới&rdquo; vẫn c&ograve;n đ&oacute; những con người S&agrave;i G&ograve;n &ldquo;rất cũ&rdquo;</div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\"><br />Những qu&aacute;n c&agrave; ph&ecirc; &ldquo;c&oacute;c&rdquo; k&ecirc; c&aacute;i b&agrave;n, c&aacute;i ghế đơn giản với đủ mọi đối tượng kh&aacute;ch h&agrave;ng từ anh xe &ocirc;m đến b&aacute;c h&agrave;ng x&oacute;m ra ngồi đọc b&aacute;o, chơi cờ; những tiệm may đo &aacute;o d&agrave;i, veston nơi người thợ may tự tay cầm thước d&acirc;y đo kh&aacute;ch từng ch&uacute;t một; những chiếc bạt dựng tạm nơi vỉa h&egrave; c&ugrave;ng d&ograve;ng chữ &ldquo;hớt t&oacute;c&rdquo; viết vội bằng tay. Nghĩ về S&agrave;i G&ograve;n xưa, c&oacute; lẽ rất kh&oacute; để kh&ocirc;ng nhớ đến những h&igrave;nh ảnh đặc trưng n&agrave;y.<br />\n<div class=\"img-style-4\">\n<div class=\"img-full\"><img src=\"https://ananas.vn/wp-content/uploads/Blog-1980s_4.jpg\" /></div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\">\n<div class=\"img-style-3\">\n<div class=\"note\">S&agrave;i G&ograve;n đ&atilde; thay đổi nhưng người S&agrave;i G&ograve;n th&igrave; vẫn lu&ocirc;n b&igrave;nh dị như vậy th&ocirc;i</div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\"><br />Trong qu&aacute; tr&igrave;nh t&igrave;m kiếm chất liệu để thể hiện concept, ch&uacute;ng t&ocirc;i may mắn gặp được một nh&oacute;m bạn trẻ mang sẵn \"n&eacute;t xưa Vintas\" trong t&iacute;nh c&aacute;ch. Họ vốn đ&atilde; y&ecirc;u S&agrave;i G&ograve;n, y&ecirc;u những điều xưa cũ v&agrave; gần gũi nơi đ&acirc;y. Do đ&oacute;, c&acirc;u chuyện về một ng&agrave;y b&igrave;nh thường trong bối cảnh \"hơi kh&aacute;c thường\" của cậu thanh ni&ecirc;n Th&iacute;ch Thanh Thế được x&acirc;y dựng với cảm x&uacute;c rất tự nhi&ecirc;n, ch&acirc;n thật.<br /><br />\n<div class=\"iframe-container\">&nbsp;</div>\n<br />Vintas Saigon 1980s Pack đ&atilde; l&ecirc;n kệ tại tất cả c&aacute;c cửa h&agrave;ng ch&iacute;nh thức của Ananas v&agrave; sẵn s&agrave;ng chờ bạn đến COP. D&ugrave; l&agrave; một người lớn l&ecirc;n tại S&agrave;i G&ograve;n, hay chỉ đơn thuần y&ecirc;u n&eacute;t đẹp b&igrave;nh dị của S&agrave;i G&ograve;n ng&agrave;y xưa, Saigon 1980s đều c&oacute; thể l&agrave; đ&ocirc;i gi&agrave;y d&agrave;nh cho bạn.</div>",
+      "date": "29/3/2020",
+      "status": "on",
+      "id": 4
+    },
+    {
+      "tieude": "VINTAS SAIGON 1980s Cảm hứng Sài Gòn xưa giữa thời hiện đại",
+      "image": "https://ananas.vn/wp-content/uploads/Blog-1980s_3.jpg",
+      "content": "<div class=\"news-detail-cont container-fluid\">L&agrave; một bộ sưu tập thuộc d&ograve;ng sản phẩm Vintas,&nbsp;<strong><em>Saigon 1980s Pack</em></strong>&nbsp;đem đến một sự lựa chọn &ldquo;cũ kỹ th&uacute; vị&rdquo;, ph&ugrave; hợp cho những người trẻ sống giữa thời hiện đại nhưng lại y&ecirc;u c&aacute;i n&eacute;t&nbsp;<br /><br />\n<div class=\"img-style-4\">\n<div class=\"img-full\"><img src=\"https://ananas.vn/wp-content/uploads/Blog-1980s_1.jpg\" /></div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\">\n<div class=\"img-style-3\">\n<div class=\"note\">Vintas &ldquo;Saigon 1980s&rdquo; - must-have item của những con người y&ecirc;u phong c&aacute;ch vintage / retro</div>\n</div>\n</div>\n<p>&nbsp;</p>\n<div class=\"news-detail-date container-fluid\">\n<h3 class=\"divider-1\">&nbsp;</h3>\n<h3 class=\"title-2\">SAIGON 1980s PACK THUỘC VINTAS - MỘT D&Ograve;NG SẢN PHẨM CỦA ANANAS</h3>\n<h3 class=\"divider-1\">&nbsp;</h3>\n</div>\n<p>&nbsp;</p>\n<div class=\"news-detail-cont container-fluid\"><br />Với cảm hứng từ h&igrave;nh ảnh mang \"m&agrave;u film\" của đường phố S&agrave;i G&ograve;n, n&eacute;t ri&ecirc;ng của Vintas Saigon 1980s Pack nổi bật qua đặc điểm: kh&ocirc;ng &ldquo;n&eacute;t căng&rdquo;, kh&ocirc;ng rực rỡ m&agrave; lại thi&ecirc;n về sắc xanh, đỏ nhiều cảm x&uacute;c. Cụ thể, những m&agrave;u sắc như Dark Denim, Vin Black, Sedona Sage v&agrave; Vin Cordovan được ứng dụng trong thiết kế đều l&agrave; những m&agrave;u bạn dễ d&agrave;ng bắt gặp khi t&igrave;m đọc c&aacute;c t&agrave;i liệu về S&agrave;i G&ograve;n trong qu&aacute; khứ. Tr&ecirc;n d&aacute;ng gi&agrave;y Low Top / High Top cơ bản, cảm gi&aacute;c ho&agrave;i niệm m&agrave; Vintas Saigon 1980s mang lại gợi người ta nhớ về h&igrave;nh b&oacute;ng của S&agrave;i G&ograve;n v&agrave;o những năm &ldquo;1900 hồi đ&oacute;&rdquo;. Gam m&agrave;u trầm của Upper khi sử dụng chất liệu Canvas d&agrave;y dặn phối c&ugrave;ng Suede, cộng th&ecirc;m sự chắc chắn của chiếc đế cao su (vulcanized) m&agrave;u gum tự nhi&ecirc;n, 5 lựa chọn thuộc Vintas Saigon 1980s Pack tạo n&ecirc;n một bức tranh ho&agrave;i cổ, thể hiện sự điềm đạm trong t&iacute;nh c&aacute;ch người mang.<br /><br />\n<div class=\"img-style-4\">\n<div class=\"img-full\"><img src=\"https://ananas.vn/wp-content/uploads/Blog-1980s_2.jpg\" /></div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\">\n<div class=\"img-style-3\">\n<div class=\"note\">\bBộ sản phẩm mang hơi thở của đ&ocirc; th&agrave;nh S&agrave;i G&ograve;n</div>\n</div>\n</div>\n<p>&nbsp;</p>\n<div class=\"news-detail-cont container-fluid\">\n<div class=\"img-style-4\">\n<div class=\"img-full\"><img src=\"https://ananas.vn/wp-content/uploads/Blog-1980s_3.jpg\" /></div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\">\n<div class=\"img-style-3\">\n<div class=\"note\">Giữa th&agrave;nh phố S&agrave;i G&ograve;n &ldquo;rất mới&rdquo; vẫn c&ograve;n đ&oacute; những con người S&agrave;i G&ograve;n &ldquo;rất cũ&rdquo;</div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\"><br />Những qu&aacute;n c&agrave; ph&ecirc; &ldquo;c&oacute;c&rdquo; k&ecirc; c&aacute;i b&agrave;n, c&aacute;i ghế đơn giản với đủ mọi đối tượng kh&aacute;ch h&agrave;ng từ anh xe &ocirc;m đến b&aacute;c h&agrave;ng x&oacute;m ra ngồi đọc b&aacute;o, chơi cờ; những tiệm may đo &aacute;o d&agrave;i, veston nơi người thợ may tự tay cầm thước d&acirc;y đo kh&aacute;ch từng ch&uacute;t một; những chiếc bạt dựng tạm nơi vỉa h&egrave; c&ugrave;ng d&ograve;ng chữ &ldquo;hớt t&oacute;c&rdquo; viết vội bằng tay. Nghĩ về S&agrave;i G&ograve;n xưa, c&oacute; lẽ rất kh&oacute; để kh&ocirc;ng nhớ đến những h&igrave;nh ảnh đặc trưng n&agrave;y.<br />\n<div class=\"img-style-4\">\n<div class=\"img-full\"><img src=\"https://ananas.vn/wp-content/uploads/Blog-1980s_4.jpg\" /></div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\">\n<div class=\"img-style-3\">\n<div class=\"note\">S&agrave;i G&ograve;n đ&atilde; thay đổi nhưng người S&agrave;i G&ograve;n th&igrave; vẫn lu&ocirc;n b&igrave;nh dị như vậy th&ocirc;i</div>\n</div>\n</div>\n<div class=\"news-detail-cont container-fluid\"><br />Trong qu&aacute; tr&igrave;nh t&igrave;m kiếm chất liệu để thể hiện concept, ch&uacute;ng t&ocirc;i may mắn gặp được một nh&oacute;m bạn trẻ mang sẵn \"n&eacute;t xưa Vintas\" trong t&iacute;nh c&aacute;ch. Họ vốn đ&atilde; y&ecirc;u S&agrave;i G&ograve;n, y&ecirc;u những điều xưa cũ v&agrave; gần gũi nơi đ&acirc;y. Do đ&oacute;, c&acirc;u chuyện về một ng&agrave;y b&igrave;nh thường trong bối cảnh \"hơi kh&aacute;c thường\" của cậu thanh ni&ecirc;n Th&iacute;ch Thanh Thế được x&acirc;y dựng với cảm x&uacute;c rất tự nhi&ecirc;n, ch&acirc;n thật.<br /><br />\n<div class=\"iframe-container\">&nbsp;</div>\n<br />Vintas Saigon 1980s Pack đ&atilde; l&ecirc;n kệ tại tất cả c&aacute;c cửa h&agrave;ng ch&iacute;nh thức của Ananas v&agrave; sẵn s&agrave;ng chờ bạn đến COP. D&ugrave; l&agrave; một người lớn l&ecirc;n tại S&agrave;i G&ograve;n, hay chỉ đơn thuần y&ecirc;u n&eacute;t đẹp b&igrave;nh dị của S&agrave;i G&ograve;n ng&agrave;y xưa, Saigon 1980s đều c&oacute; thể l&agrave; đ&ocirc;i gi&agrave;y d&agrave;nh cho bạn.</div>",
+      "date": "29/3/2020",
+      "status": "on",
+      "id": 5
+    }
+  ],
+  "khachhang": [
+    {
+      "hovaten": "khải phạm",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "03223211504",
+      "tongdon": "67",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 184494000,
+      "datluc": "30/4/2020",
+      "code": 1588216108810,
+      "status": 1,
+      "id": 29
+    },
+    {
+      "hovaten": "qưeqw",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "0334534504",
+      "tongdon": "68",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 207318000,
+      "datluc": "30/4/2020",
+      "code": 1588216185664,
+      "status": 2,
+      "id": 30
+    },
+    {
+      "hovaten": "ádasd",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "0334534504",
+      "tongdon": "69",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 9600000,
+      "datluc": "30/4/2020",
+      "code": 1588216237317,
+      "status": 1,
+      "id": 31
+    },
+    {
+      "hovaten": "ádasd",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "0334534504",
+      "tongdon": "70",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "sss",
+      "tongtien": 510000,
+      "datluc": "30/4/2020",
+      "code": 1588216530445,
+      "status": 2,
+      "id": 32
+    },
+    {
+      "hovaten": "ádasd",
+      "email": "phamvkhai20@gmail.com",
+      "phone": "0334534504",
+      "tongdon": "71",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "ggggg",
+      "tongtien": 2040000,
+      "datluc": "30/4/2020",
+      "code": 1588219363169,
+      "status": 2,
+      "id": 33
+    },
+    {
+      "hovaten": "222",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "0334534504",
+      "tongdon": "72",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 1000000,
+      "datluc": "30/4/2020",
+      "code": 1588219389225,
+      "status": 2,
+      "id": 34
+    },
+    {
+      "hovaten": "ádasd",
+      "email": "khaipvph07362@fpt.edu.vn",
+      "phone": "0334534504",
+      "tongdon": "73 74 75",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 17332000,
+      "datluc": "30/4/2020",
+      "code": 1588222337184,
+      "status": "2",
+      "id": 35
+    },
+    {
+      "hovaten": "đá",
+      "email": "khaipvph07362@fpt.edu.vn",
+      "phone": "0334534504",
+      "tongdon": "76",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "Giao Hàng nhanh giúp em",
+      "tongtien": 200000,
+      "datluc": "30/4/2020",
+      "code": 1588222615462,
+      "status": 1,
+      "id": 36
+    },
+    {
+      "hovaten": "qưeqw",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "0334534504",
+      "tongdon": "77",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 1095000,
+      "datluc": "30/4/2020",
+      "code": 1588260553066,
+      "status": "2",
+      "id": 37
+    },
+    {
+      "hovaten": "ádasd",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "0334534504",
+      "tongdon": "81",
+      "address": "193 quan hoa,cầu giấy",
+      "note": " ảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygubảictfvygub",
+      "tongtien": 219000,
+      "datluc": "2/6/2020",
+      "code": 1588385861615,
+      "status": 1,
+      "id": 38
+    },
+    {
+      "hovaten": "khải phạm",
+      "email": "khaipvph07362@fpt.edu.vn",
+      "phone": "0334534504",
+      "tongdon": "82",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 450000,
+      "datluc": "2/6/2020",
+      "code": 1588392278459,
+      "status": 1,
+      "id": 39
+    },
+    {
+      "hovaten": "qưeqw",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "0334534504",
+      "tongdon": "83",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 2040000,
+      "datluc": "2/5/2020",
+      "code": 1588424199680,
+      "status": 1,
+      "id": 40
+    },
+    {
+      "hovaten": "khải phạm",
+      "email": "khaipvph07362@fpt.edu.vn",
+      "phone": "0334534504",
+      "tongdon": "84",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 2250000,
+      "datluc": "2/5/2020",
+      "code": 1588424296623,
+      "status": 0,
+      "id": 41
+    },
+    {
+      "hovaten": "khải phạm",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "0334534504",
+      "tongdon": "85",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "da kấdlkj álkjdlkasjdl ạklajsldkaj ạlkj lsakjdaksdklasjkl ạ ka",
+      "tongtien": 1960000,
+      "datluc": "2/5/2020",
+      "code": 1588425534026,
+      "status": "2",
+      "id": 42
+    },
+    {
+      "hovaten": "dsadas",
+      "email": "phamvkhai20@gmail.com",
+      "phone": "0334534504",
+      "tongdon": "86 87",
+      "address": "123123",
+      "note": "",
+      "tongtien": 3396000,
+      "datluc": "2/5/2020",
+      "code": 1588428581514,
+      "status": 0,
+      "id": 43
+    },
+    {
+      "hovaten": "khải phạm",
+      "email": "khaipvph07362@fpt.edu.vn",
+      "phone": "0334534504",
+      "tongdon": "88",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 2250000,
+      "datluc": "4/5/2020",
+      "code": 1588554173339,
+      "status": 1,
+      "id": 44,
+      "ngaygiaohang": "6/5/2020"
+    },
+    {
+      "hovaten": "qưeqw",
+      "email": "khaipvph07362@fpt.edu.vn",
+      "phone": "0334534504",
+      "tongdon": "89",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 2550000,
+      "datluc": "5/5/2020",
+      "code": 1588660214569,
+      "status": 1,
+      "id": 45,
+      "ngaygiaohang": "6/5/2020"
+    },
+    {
+      "hovaten": "ádasd",
+      "email": "khaipvph07362@fpt.edu.vn",
+      "phone": "0334534504",
+      "tongdon": "90",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 2040000,
+      "datluc": "6/5/2020",
+      "code": 1588773757640,
+      "status": 0,
+      "id": 46
+    },
+    {
+      "hovaten": "khải phạm",
+      "email": "phamvkhai20@gmail.com",
+      "phone": "0334534504",
+      "tongdon": "91",
+      "address": "193 quan hoa,cầu giấy",
+      "note": "",
+      "tongtien": 1020000,
+      "datluc": "8/5/2020",
+      "code": 1588897788487,
+      "status": "2",
+      "id": 47
+    },
+    {
+      "hovaten": "<script>alert(\"hhrrhrh\")</script><script>alert(\"hhrrhrh\")</script><script>alert(\"hhrrhrh\")</script>",
+      "email": "anhkhai3@gmail.com",
+      "phone": "0987654321",
+      "tongdon": "93",
+      "address": "<script>alert(document.cookie)</script>",
+      "note": "đsfsdfsdf",
+      "tongtien": 21150000,
+      "datluc": "23/6/2020",
+      "code": 1592912881446,
+      "status": "2",
+      "id": 48
+    }
+  ],
+  "donhang": [
+    {
+      "idsp": "12",
+      "code": "1588214881904",
+      "soluong": "3",
+      "trangthai": "daban",
+      "id": 62
+    },
+    {
+      "idsp": "14",
+      "code": "1588215350686",
+      "soluong": "1",
+      "trangthai": "daban",
+      "id": 63
+    },
+    {
+      "idsp": "6",
+      "code": "1588215359078",
+      "soluong": "1",
+      "trangthai": "daban",
+      "id": 64
+    },
+    {
+      "idsp": "5",
+      "code": "1588215371352",
+      "soluong": "3",
+      "trangthai": "daban",
+      "id": 65
+    },
+    {
+      "idsp": "5",
+      "code": "1588215380242",
+      "soluong": "1",
+      "trangthai": "daban",
+      "id": 66
+    },
+    {
+      "idsp": "12",
+      "code": "1588215799289",
+      "soluong": "09",
+      "trangthai": "daban",
+      "id": 67
+    },
+    {
+      "idsp": "12",
+      "code": "1588216140640",
+      "soluong": "10",
+      "trangthai": "daban",
+      "id": 68
+    },
+    {
+      "idsp": "7",
+      "code": "1588216222821",
+      "soluong": "30",
+      "trangthai": "daban",
+      "id": 69
+    },
+    {
+      "idsp": "14",
+      "code": "1588216518905",
+      "soluong": "1",
+      "trangthai": "daban",
+      "id": 70
+    },
+    {
+      "idsp": "14",
+      "code": "1588219340325",
+      "soluong": "4",
+      "trangthai": "daban",
+      "id": 71
+    },
+    {
+      "idsp": "6",
+      "code": "1588219379259",
+      "soluong": "5",
+      "trangthai": "daban",
+      "id": 72
+    },
+    {
+      "idsp": "7",
+      "code": "1588222186593",
+      "soluong": "12",
+      "trangthai": "daban",
+      "id": 73
+    },
+    {
+      "idsp": "12",
+      "code": "1588222204447",
+      "soluong": "6",
+      "trangthai": "daban",
+      "id": 74
+    },
+    {
+      "idsp": "5",
+      "code": "1588222220970",
+      "soluong": "4",
+      "trangthai": "daban",
+      "id": 75
+    },
+    {
+      "idsp": "6",
+      "code": "1588222596448",
+      "soluong": "1",
+      "trangthai": "daban",
+      "id": 76
+    },
+    {
+      "idsp": "21",
+      "code": "1588260536307",
+      "soluong": "5",
+      "trangthai": "daban",
+      "id": 77
+    },
+    {
+      "code": 1588265789980,
+      "idsp": "22",
+      "trangthai": "ao",
+      "soluong": "1",
+      "id": 78
+    },
+    {
+      "code": 1588265798974,
+      "idsp": "19",
+      "trangthai": "ao",
+      "soluong": "1",
+      "id": 79
+    },
+    {
+      "code": 1588297228232,
+      "idsp": "21",
+      "trangthai": "ao",
+      "soluong": "6",
+      "id": 80
+    },
+    {
+      "idsp": "21",
+      "code": "1588385845440",
+      "soluong": "1",
+      "trangthai": "daban",
+      "id": 81
+    },
+    {
+      "idsp": "22",
+      "code": "1588392267672",
+      "soluong": "1",
+      "trangthai": "daban",
+      "id": 82
+    },
+    {
+      "idsp": "23",
+      "code": "1588424190716",
+      "soluong": "4",
+      "trangthai": "daban",
+      "id": 83
+    },
+    {
+      "idsp": "22",
+      "code": "1588424286052",
+      "soluong": "5",
+      "trangthai": "daban",
+      "id": 84
+    },
+    {
+      "idsp": "17",
+      "code": "1588425518933",
+      "soluong": "4",
+      "trangthai": "daban",
+      "id": 85
+    },
+    {
+      "idsp": "8",
+      "code": "1588428547427",
+      "soluong": "6",
+      "trangthai": "daban",
+      "id": 86
+    },
+    {
+      "idsp": "21",
+      "code": "1588428562552",
+      "soluong": "4",
+      "trangthai": "daban",
+      "id": 87
+    },
+    {
+      "idsp": "22",
+      "code": "1588553666558",
+      "soluong": "5",
+      "trangthai": "daban",
+      "id": 88
+    },
+    {
+      "idsp": "14",
+      "code": "1588660191201",
+      "soluong": "5",
+      "trangthai": "daban",
+      "id": 89
+    },
+    {
+      "idsp": "23",
+      "code": "1588773749531",
+      "soluong": "4",
+      "trangthai": "daban",
+      "id": 90
+    },
+    {
+      "idsp": "23",
+      "code": "1588897754286",
+      "soluong": "2",
+      "trangthai": "daban",
+      "id": 91
+    },
+    {
+      "code": 1592912732392,
+      "idsp": "23",
+      "trangthai": "ao",
+      "soluong": "1",
+      "id": 92
+    },
+    {
+      "idsp": "22",
+      "code": "1592912842758",
+      "soluong": "47",
+      "trangthai": "daban",
+      "id": 93
+    }
+  ],
+  "contact": [
+    {
+      "hovaten": "khai dz 3365",
+      "email": "phamvkhai20@gmail.com",
+      "phone": "0334534504",
+      "date": "1",
+      "content": "Hay goi cho toi",
+      "trangthai": "daxem",
+      "id": 1
+    },
+    {
+      "hovaten": "pham",
+      "email": "phamvkhai20@gmail.com",
+      "phone": "0334534502",
+      "date": "26/0/2020",
+      "content": "nội dung. Mặt bên trong của sự vật, cái được hình thức chứa đựng hoặc biểu hiện. Nội dung của tác phẩm. Môn thể thao. thi đấu ở nội dung điền kinh ...\n",
+      "trangthai": "daxem",
+      "id": 2
+    },
+    {
+      "hovaten": "pham van khai",
+      "email": "phamvkhai20@gmail.com",
+      "phone": "0334534502",
+      "date": "26/0/2020",
+      "content": "nội dung. Mặt bên trong của sự vật, cái được hình thức chứa đựng hoặc biểu hiện. Nội dung của tác phẩm. Môn thể thao. thi đấu ở nội dung điền kinh ...\n",
+      "trangthai": "daxem",
+      "id": 3
+    },
+    {
+      "hovaten": "Pham van khai",
+      "email": "khaipvph07362@fpt.edu.vn",
+      "phone": "0334534504",
+      "date": "29/3/2020",
+      "content": "ác trang web sử dụng trình theo dõi để thu thập thông tin về trình duyệt của bạn. Các trang web có thể sử dụng thông tin này để cải thiện trang web và hiển thị cho bạn nội dung như quảng cáo được cá nhân hóa. Một số trình theo dõi thu thập và gửi thông tin của bạn đến các trang web bạn chưa từng truy cập",
+      "trangthai": "daxem",
+      "id": 4
+    },
+    {
+      "hovaten": "đá",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "0334534504",
+      "date": "29/3/2020",
+      "content": "uiidhiashdiua",
+      "trangthai": "daxem",
+      "id": 5
+    },
+    {
+      "hovaten": "khải phạm",
+      "email": "khaipvph07362@fpt.edu.vn",
+      "phone": "0334534504",
+      "date": "30/4/2020  22:25",
+      "content": "aaaaaa",
+      "trangthai": "daxem",
+      "id": 6
+    },
+    {
+      "hovaten": "khải phạm",
+      "email": "phamvkhai20@gmail.com1",
+      "phone": "0334534504",
+      "date": "2/5/2020  19:59",
+      "content": "Hãy Gọi cho Tôi ....",
+      "trangthai": "daxem",
+      "id": 7
+    }
+  ],
+  "cmt": [
+    {
+      "id": 1,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqxaw-4-J49Av---NwP2e2Eqq36mkUTN5SYHPDaGUr89AsdJ6e&usqp=CAU",
+      "hovaten": "pham van khai",
+      "noidung": "bai viet hay qua",
+      "date": "26/0/2020",
+      "idbaiviet": "2",
+      "trangthai": "on"
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Abstack - Responsive Web App Kit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- App css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+    <script src="assets/js/modernizr.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        <!-- Top Bar Start -->
+        <div class="topbar">
+
+            <!-- LOGO -->
+            <div class="topbar-left">
+                <a href="index.html" class="logo">
+                    <span>
+                        <img height="40px" src="https://sinhvien.xyz/json/logo.png" alt="" height="16">
+                    </span>
+                </a>
+            </div>
+
+            <nav class="navbar-custom">
+
+                <ul class="list-unstyled topbar-right-menu float-right mb-0">
+                    <li class="dropdown notification-list hide-phone">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown"
+                            href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <i class="mdi mdi-earth"></i> English <i class="mdi mdi-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item">
+                                Spanish
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item">
+                                Italian
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item">
+                                French
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item">
+                                Russian
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="dropdown notification-list">
+                        <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown"
+                            href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <i class="fi-bell noti-icon"></i>
+                            <span class="badge badge-danger badge-pill noti-icon-badge">4</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h6 class="m-0"><span class="float-right"><a href="" class="text-dark"><small>Clear
+                                                All</small></a> </span>Notification</h6>
+                            </div>
+
+                            <div class="slimscroll" style="max-height: 190px;">
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-success"><i class="mdi mdi-comment-account-outline"></i>
+                                    </div>
+                                    <p class="notify-details">Caleb Flakelar commented on Admin<small
+                                            class="text-muted">1 min ago</small></p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-info"><i class="mdi mdi-account-plus"></i></div>
+                                    <p class="notify-details">New user registered.<small class="text-muted">5 hours
+                                            ago</small></p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-danger"><i class="mdi mdi-heart"></i></div>
+                                    <p class="notify-details">Carlos Crouch liked <b>Admin</b><small
+                                            class="text-muted">3 days ago</small></p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-warning"><i class="mdi mdi-comment-account-outline"></i>
+                                    </div>
+                                    <p class="notify-details">Caleb Flakelar commented on Admin<small
+                                            class="text-muted">4 days ago</small></p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-purple"><i class="mdi mdi-account-plus"></i></div>
+                                    <p class="notify-details">New user registered.<small class="text-muted">7 days
+                                            ago</small></p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-custom"><i class="mdi mdi-heart"></i></div>
+                                    <p class="notify-details">Carlos Crouch liked <b>Admin</b><small
+                                            class="text-muted">13 days ago</small></p>
+                                </a>
+                            </div>
+
+                            <!-- All-->
+                            <a href="javascript:void(0);"
+                                class="dropdown-item text-center text-primary notify-item notify-all">
+                                View all <i class="fi-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="dropdown notification-list">
+                        <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown"
+                            href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <i class="fi-speech-bubble noti-icon"></i>
+                            <span class="badge badge-light badge-pill noti-icon-badge">6</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h6 class="m-0"><span class="float-right"><a href="" class="text-dark"><small>Clear
+                                                All</small></a> </span>Chat</h6>
+                            </div>
+
+                            <div class="slimscroll" style="max-height: 190px;">
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon"><img src="assets/images/users/avatar-2.jpg"
+                                            class="img-fluid rounded-circle" alt="" /> </div>
+                                    <p class="notify-details">Cristina Pride</p>
+                                    <p class="text-muted font-13 mb-0 user-msg">Hi, How are you? What about our next
+                                        meeting</p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon"><img src="assets/images/users/avatar-3.jpg"
+                                            class="img-fluid rounded-circle" alt="" /> </div>
+                                    <p class="notify-details">Sam Garret</p>
+                                    <p class="text-muted font-13 mb-0 user-msg">Yeah everything is fine</p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon"><img src="assets/images/users/avatar-4.jpg"
+                                            class="img-fluid rounded-circle" alt="" /> </div>
+                                    <p class="notify-details">Karen Robinson</p>
+                                    <p class="text-muted font-13 mb-0 user-msg">Wow that's great</p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon"><img src="assets/images/users/avatar-5.jpg"
+                                            class="img-fluid rounded-circle" alt="" /> </div>
+                                    <p class="notify-details">Sherry Marshall</p>
+                                    <p class="text-muted font-13 mb-0 user-msg">Hi, How are you? What about our next
+                                        meeting</p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon"><img src="assets/images/users/avatar-6.jpg"
+                                            class="img-fluid rounded-circle" alt="" /> </div>
+                                    <p class="notify-details">Shawn Millard</p>
+                                    <p class="text-muted font-13 mb-0 user-msg">Yeah everything is fine</p>
+                                </a>
+                            </div>
+
+                            <!-- All-->
+                            <a href="javascript:void(0);"
+                                class="dropdown-item text-center text-primary notify-item notify-all">
+                                View all <i class="fi-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="dropdown notification-list">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown"
+                            href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <img src="assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle"> <span
+                                class="ml-1">Samuel <i class="mdi mdi-chevron-down"></i> </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h6 class="text-overflow m-0">Welcome !</h6>
+                            </div>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fi-head"></i> <span>My Account</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fi-cog"></i> <span>Settings</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fi-help"></i> <span>Support</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fi-lock"></i> <span>Lock Screen</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fi-power"></i> <span>Logout</span>
+                            </a>
+
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="list-inline menu-left mb-0">
+                    <li class="float-left">
+                        <button class="button-menu-mobile open-left waves-light waves-effect">
+                            <i class="dripicons-menu"></i>
+                        </button>
+                    </li>
+                    <li class="hide-phone app-search">
+                        <form role="search" class="">
+                            <input type="text" placeholder="Search..." class="form-control">
+                            <a href=""><i class="fa fa-search"></i></a>
+                        </form>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+        <!-- Top Bar End -->
+
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left side-menu">
+            <div class="slimscroll-menu" id="remove-scroll">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu" id="side-menu">
+                        <li class="menu-title">Navigation</li>
+                        <li>
+                            <a href="index.html">
+                                <i class="fi-air-play"></i> <span> Dashboard </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);"><i class="fi-box"></i><span> <span> Sản phẩm </span> <span
+                                        class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="product-add.html"> <i class="fi-plus"></i>Thêm sản phẩm</a></li>
+                                <li><a href="products.html"><i class="fa fa-navicon"></i>Tất cả sản phẩm</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);"><i class="mdi mdi-ambulance"></i><span> <span>Đơn Hàng </span> <span
+                                        class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="donhang.html"><i class="dripicons-blog"></i>Tất cả đơn hàng</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);"><i class=" mdi mdi-tag-heart"></i><span> <span> Danh Mục </span> <span
+                                        class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="category-add.html"> <i class="mdi mdi-tag-plus"></i>Thêm Danh Mục</a></li>
+                                <li><a href="categorys.html"><i class="fa fa-navicon"></i>Tất cả Danh Mục</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);"><i class="mdi mdi-blogger"></i><span> <span>Bài Viết </span> <span
+                                        class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="blog-add.html"> <i class=" mdi mdi-border-color"></i>Thêm Bài Viết</a></li>
+                                <li><a href="blogs.html"><i class="fa fa-navicon"></i>Tất cả Bài Viết</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);"><i class="mdi mdi-comment-processing"></i><span> <span> Liên Hệ</span> <span
+                                        class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="contact.html"> <i class="mdi mdi-comment"></i>Tất cả liên hệ</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);"><i class="fi-air-play"></i><span> <span>Slide show</span> <span
+                                        class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="slide-add.html"> <i class=" mdi mdi-border-color"></i>Thêm slide show</a></li>
+
+                                <li><a href="slides.html"> <i class="fi-air-play"></i>Tất cả slide show</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Sidebar -->
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+
+
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="content-page">
+            <!-- Start content -->
+            <div class="content">
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <h4 class="page-title float-left">Thêm Sản Phẩm</h4>
+
+                                <ol class="breadcrumb float-right">
+                                    <li class="breadcrumb-item"><a href="#">Abstack</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Forms</a></li>
+                                    <li class="breadcrumb-item active">Form Validation</li>
+                                </ol>
+
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-lg">
+                            <div class="card-box">
+                                <h4 class="header-title m-t-0">Thêm sản phẩm mới</h4>
+
+
+                                <form class=""  onsubmit="return  addblog()">
+                                    <div class="form-group">
+                                        <label>Tiêu đề</label>
+                                        <input type="text" name="tieude" class="form-control"  />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Ảnh</label>
+                                        <div>
+                                            <input parsley-type="url" name="images" type="url" class="form-control" 
+                                                placeholder="URL" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Nội Dung</label>
+                                        <textarea id="elm1" name="content"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <div>
+                                            <button type="submit" class="btn btn-gradient waves-effect waves-light">
+                                                Submit
+                                            </button>
+                                            <a href="products.html">
+                                                <div class="btn btn-light waves-effect m-l-5">
+                                                    Cancel
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    
+                                </form>
+                            </div>
+                        </div>
+
+                    </div> 
+
+                </div>
+                <!-- end row -->
+
+            </div> <!-- container -->
+
+        </div> <!-- content -->
+
+        <footer class="footer text-right">
+            2017 - 2018 © Abstack. - Coderthemes.com
+        </footer>
+
+    </div>
+
+
+    <!-- ============================================================== -->
+    <!-- End Right content here -->
+    <!-- ============================================================== -->
+
+
+    </div>
+
+
+    <!-- END wrapper -->
+    <script src="../plugins/tinymce/tinymce.min.js"></script>
+
+
+
+    <!-- jQuery  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/waves.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+
+    <!-- Parsley js -->
+    <script type="text/javascript" src="../plugins/parsleyjs/parsley.min.js"></script>
+
+    <!-- App js -->
+    <script src="assets/js/jquery.core.js"></script>
+    <script src="assets/js/jquery.app.js"></script>
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            $('form').parsley();
+        });
+
+    </script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                if($("#elm1").length > 0){
+                    tinymce.init({
+                        selector: "textarea#elm1",
+                        theme: "modern",
+                        height:300,
+                        plugins: [
+                            "advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker",
+                            "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+                            "save table contextmenu directionality emoticons template paste textcolor"
+                        ],
+                        toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | l      ink image | print preview media fullpage | forecolor backcolor emoticons",
+                        style_formats: [
+                            {title: 'Bold text', inline: 'b'},
+                            {title: 'Red text', inline: 'span', styles: {color: '#ff0000'}},
+                            {title: 'Red header', block: 'h1', styles: {color: '#ff0000'}},
+                            {title: 'Example 1', inline: 'span', classes: 'example1'},
+                            {title: 'Example 2', inline: 'span', classes: 'example2'},
+                            {title: 'Table styles'},
+                            {title: 'Table row 1', selector: 'tr', classes: 'tablerow1'}
+                        ]
+                    });
+                }
+            });
+        </script>
+    <script type="text/javascript">
+        
+    </script>
+        <script src="../javascript/blog-add.js"></script>
+
+</body>
+
+</html>
